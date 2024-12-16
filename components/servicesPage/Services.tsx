@@ -4,9 +4,9 @@ import Container from "../global/Container";
 function Services() {
   return (
     <Container>
-      <div className="flex justify-between items-center mt-6">
+      <div className="flex justify-between items-center mt-6 h-[600px] gap-6">
         <div className="flex flex-1  m-4 p-2">
-          <video className="w-[500px] h-[250px]  " autoPlay loop muted>
+          <video className="w-[600px] h-[400px]  " autoPlay loop muted>
             <source src="/video/video.mp4" type="video/mp4" />
             Tarayıcınız bu videoyu oynatmayı desteklemiyor.
           </video>

@@ -76,22 +76,22 @@ function Slider() {
 
 const sliderData = [
   {
-    img: "/1.png",
-    location: "Costa Rica",
+    img: "/1.jpg",
+    location: "Residential",
     description: "Bla bla",
-    title: "Nayara Camp",
+    title: "Home in Forest",
   },
   {
-    img: "/2.png",
-    title: "Columbila",
+    img: "/2.jpg",
+    title: "Villa in London",
     description: "Bla bla bla",
-    location: "TOWN OF CATAGANA",
+    location: "Residential",
   },
   {
-    img: "/3.png",
-    title: "Masai Mura",
+    img: "/3.jpg",
+    title: "Rennovate Exterior with Garden",
     description: "Cla Cla",
-    location: "VILLA ROSE",
+    location: "Residential",
   },
   {
     img: "/4.png",

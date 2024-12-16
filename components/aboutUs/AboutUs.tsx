@@ -6,8 +6,8 @@ import { Button } from "../ui/button";
 function AboutUs() {
   return (
     <Container>
-      <div className="flex mt-6 ">
-        <div className="flex flex-1 flex-col gap-6 mt-16">
+      <div className="flex mt-16 h-[600px] gap-6">
+        <div className="flex flex-1 flex-col gap-16 ">
           <div className="text-accent">ABOUT US</div>
           <div>
             <h2 className="h2 tracking-tight leading-tight mb-3">
@@ -30,7 +30,7 @@ function AboutUs() {
           </div>
         </div>
 
-        <div className="flex-1 flex justify-end m-4 p-14">
+        <div className="flex-1 flex justify-end ">
           <Image
             src="/images/aboutUs.jpg"
             width={500}

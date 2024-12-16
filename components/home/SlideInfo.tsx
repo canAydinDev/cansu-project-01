@@ -20,7 +20,7 @@ function SlideInfo({ transitionData, currentSlideData }: Props) {
         <button className="flex h-[41px] w-[41px] items-center justify-center rounded-full bg-yellow-500 text-xs transition duration-300 ease-in-out hover:opacity-80">
           <IoMdBookmark className="text-xl" />
         </button>
-        <button className="w-fit rounded-full border-[1px] border-[#ffffff8f] px-6 py-3 text-[10px] font-thin transition duration-300 ease-in-out hover:bg-white hover:text-black">
+        <button className="w-fit rounded-full border-[1px] border-[#ffffff8f] px-6 py-3 text-[15px] font-thin transition duration-300 ease-in-out hover:bg-white hover:text-black">
           Discover Location
         </button>
       </motion.div>

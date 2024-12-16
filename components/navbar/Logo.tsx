@@ -5,14 +5,14 @@ import { useState } from "react";
 function Logo() {
   const [hovered, setHovered] = useState(false);
   return (
-    <Link className="flex justify-center items-center relative z-[60]" href="/">
+    <Link className="flex justify-center items-center relative " href="/">
       <div
         className="relative inline-block"
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
       >
         <h3 className="h3 text-gray-400 relative flex gap-2 left-2">
-          <span className=" text-accent relative z-10 ">Cansu</span>
+          <span className=" text-accent relative z-10 ">Okan</span>
           <span className="relative ">&</span>
           <span className="relative">Design</span>
         </h3>

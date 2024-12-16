@@ -1,4 +1,5 @@
 "use client";
+import AboutPage from "@/components/about/About";
 import AboutUs from "@/components/aboutUs/AboutUs";
 
 import Slider from "@/components/home/Slider";
@@ -10,6 +11,7 @@ function HomePage() {
       <Slider />
       <AboutUs />
       <Services />
+      <AboutPage />
     </>
   );
 }
