@@ -14,7 +14,7 @@ const fadeIn = (direction = "up", delay = 0) => {
       y: 0,
       transition: {
         delay,
-        duration: 0.8,
+        duration: 0.7,
       },
     },
   };
