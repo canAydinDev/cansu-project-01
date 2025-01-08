@@ -18,8 +18,8 @@ const open_sans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Cansu & Design",
-  description: "Cansu Arslanbas Diyet Klinigi",
+  title: "Okan & Design",
+  description: "Okan Irkilata Ic Mimarlik",
 };
 
 export default function RootLayout({

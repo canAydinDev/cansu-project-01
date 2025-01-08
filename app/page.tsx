@@ -3,6 +3,7 @@ import AboutPage from "@/components/about/About";
 import AboutUs from "@/components/aboutUs/AboutUs";
 
 import Slider from "@/components/home/Slider";
+import LatestProjectPage from "@/components/latest-projects/LatestProjectPage";
 import Services from "@/components/servicesPage/Services";
 
 function HomePage() {
@@ -12,6 +13,7 @@ function HomePage() {
       <AboutUs />
       <Services />
       <AboutPage />
+      <LatestProjectPage />
     </>
   );
 }
